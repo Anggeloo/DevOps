@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Define an array of fruits
-const fruits = ['Apple', 'Banana', 'Orange', 'Mango', 'Pineapple'];
+const fruits = ['Banana', 'Banana', 'Orange', 'Mango', 'Pineapple'];
 
 app.get('/', (req, res) => {
   // Generate an HTML response with the list of fruits
